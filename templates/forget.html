@@ -58,13 +58,15 @@
                     <div class="card-body ">
                         <form class="form" method="post" action="/login_validation">
                             <label>User ID</label><br>
-                            <input class="form-control" type="text" name="user_Id"><br>
-                            <label>Password</label><br>
-                            <input class="form-control" type="password" name="password">
+                            <input class="form-control" type="text" name="user_Id">
+                            <label>Mobile Number</label><br>
+                            <input class="form-control" type="tel" name="Mno">
+                            <label>New Password</label><br>
+                            <input class="form-control" type="password" name="password1" >
+                            <label>Comfirm New Password</label><br>
+                            <input class="form-control" type="password" name="password2" >
                             <br>
                             <input type="submit" class="btn btn-dark btn-block btn-lg" value="Login">
-                            <strong><p style="margin-top:10px; color: #142850">Not a member?<a class="blink_me" href="/signup" style="margin-left: 20px">Sign Up</a></p></strong>
-                            <strong><p style="margin-top:10px; color: #142850"><a class="blink_me" href="/forget" style="margin-left: 20px">Forget Password</a></p></strong>
                         </form>
                     </div>
                 </div>

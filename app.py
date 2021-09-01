@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash
+from flask import Flask, render_template, request
 import mysql.connector
 app = Flask(__name__)
 conn = mysql.connector.connect(
@@ -31,11 +31,31 @@ def login_validation():
         error = "Invalid password or UserId"
         return render_template('login.html', error=error)
 
+@app.route('/forget')
+def forget():
+    # user_ID = request.form.get('user_Id')
+    # passowrd = request.form.get('password')
+    # cursor.execute("""SELECT * FROM users WHERE ID Like '{}' AND password Like '{}'""".format(user_ID, passowrd))
+    # users = cursor.fetchall()
+    # if len(users)>0:
+    #     return render_template("Success.html")
+    # else:
+    #     error = "Invalid password or UserId"
+    #     return render_template('login.html', error=error)
+    return render_template('forget.html')
+
 @app.route('/add_login', methods = ['POST'])
 def add_user():
     user_Id = request.form.get('Id')
     Mno = request.form.get('Mno')
     password = request.form.get('password')
+    cursor.execute("""SELECT * FROM users WHERE ID Like '{}'""".format(user_Id))
+    users = cursor.fetchall()
+    if len(users) > 0:
+        # return """SELECT * FROM users WHERE ID Like '{}'""".format(user_Id)
+        error = "User Already Registered"
+        print(users)
+        return render_template('login.html', error=error)
     cursor.execute("""INSERT INTO users (`ID`, `Mno`, `password`) VALUES('{}', '{}', '{}');""".format(user_Id, Mno, password))
     conn.commit()
     # return render_template('login.html')
