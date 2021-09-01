@@ -1,0 +1,40 @@
+body{
+background: #DAE1E7;  /* fallback for old browsers */
+}
+.mt-100{
+    margin-top: 90px ;
+}
+.mt-85{
+    margin-top: 40px ;
+}
+.img{
+    width: 80%;
+    height: 350px;
+}
+.img1{
+    width: 100%;
+    height: 350px;
+}
+.abc{
+    width: 100%;
+    height : 90px;
+}
+.aq{
+    background: #00909E;
+}
+.navcol{
+    background: #27496D;
+}
+a {
+    color: #9C1A1C;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
