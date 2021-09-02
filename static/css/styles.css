@@ -1,11 +1,14 @@
 body{
-background: #DAE1E7;  /* fallback for old browsers */
+background: #e7f9ff;  /* fallback for old browsers */
 }
 .mt-100{
-    margin-top: 90px ;
+    margin-top: 87.5px ;
 }
 .mt-85{
     margin-top: 40px ;
+}
+.mt-80{
+    
 }
 .img{
     width: 80%;
@@ -19,11 +22,15 @@ background: #DAE1E7;  /* fallback for old browsers */
     width: 100%;
     height : 90px;
 }
+.abd{
+    width:100%;
+    height:80px
+}
 .aq{
     background: #00909E;
 }
 .navcol{
-    background: #27496D;
+    background: #282525;
 }
 a {
     color: #9C1A1C;
