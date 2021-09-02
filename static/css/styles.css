@@ -45,3 +45,13 @@ a {
     opacity: 0;
   }
 }
+.pml-12{
+    margin-left: auto;
+    margin-right: auto;
+}
+.blue_col{
+    background: #e7f9ff;
+}
+.pu_col{
+    background: #3c186c;
+}
