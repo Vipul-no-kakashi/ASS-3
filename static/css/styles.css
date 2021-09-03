@@ -1,5 +1,5 @@
 body{
-background: #e7f9ff;  /* fallback for old browsers */
+background: ghostwhite;  /* fallback for old browsers */
 }
 .mt-100{
     margin-top: 87.5px ;
@@ -14,10 +14,7 @@ background: #e7f9ff;  /* fallback for old browsers */
     width: 80%;
     height: 350px;
 }
-.img1{
-    width: 100%;
-    height: 350px;
-}
+
 .abc{
     width: 100%;
     height : 90px;
@@ -27,7 +24,7 @@ background: #e7f9ff;  /* fallback for old browsers */
     height:80px
 }
 .aq{
-    background: #00909E;
+    background: #e7f9ff;
 }
 .navcol{
     background: #282525;
@@ -53,5 +50,8 @@ a {
     background: #e7f9ff;
 }
 .pu_col{
-    background: #3c186c;
+    background: #B8B5FF;
+}
+.card_col{
+    background: #eeddff;
 }

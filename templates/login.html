@@ -9,6 +9,13 @@
                 {{error}}
             </div>
         {% endif %}
+        {% if success %}
+            <br>
+            <br>
+           <div class="blink_me" style=" color: greenyellow; font-size: 20px">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>{{success}}</strong>
+            </div>
+        {% endif %}
     </div>
     <div class="card aq">
         <div class="card-body ">
@@ -27,7 +34,8 @@
                 </strong>
                 <strong>
                     <p style="margin-top:10px; color: #142850">
-                        <a href="/forget" style="margin-left: 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forget Password</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/forget" style="margin-left: 20px">Forget Password</a>
                     </p></strong>
             </form>
         </div>

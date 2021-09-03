@@ -1,24 +1,24 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="abd">
-        {% if error %}
-            <br>
-            <br>
-           <div class="blink_me" style=" color: #9C1A1C; font-size: 20px">
-                <strong>Error</strong>:
-                {{error}}
-            </div>
-        {% endif %}
+<div class="abd">
+    {% if error %}
+    <br>
+    <br>
+    <div class="blink_me" style=" color: #9C1A1C; font-size: 20px">
+        <strong>Error</strong>:
+        {{error}}
     </div>
-    <div class="card mt-85 aq">
-        <div class="card-body ">
-            <form class="form" method="post" action="/forget_validation">
-                <label>User ID</label>
-                <input class="form-control" type="text" name="user_Id"><br>
-                <label>Mobile Number</label>
-                <input class="form-control" type="tel" name="Mno"><br>
-                <input type="submit" class="btn btn-dark btn-block btn-lg" value="Reset Password">
-            </form>
-        </div>
+    {% endif %}
+</div>
+<div class="card mt-85 aq">
+    <div class="card-body ">
+        <form class="form" method="post" action="/forget_validation">
+            <label>User ID</label>
+            <input class="form-control" type="text" name="user_Id"><br>
+            <label>Mobile Number</label>
+            <input class="form-control" type="tel" name="Mno"><br>
+            <input type="submit" class="btn btn-dark btn-block btn-lg" value="Reset Password">
+        </form>
     </div>
+</div>
 {% endblock %}

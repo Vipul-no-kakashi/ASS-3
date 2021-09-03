@@ -59,8 +59,8 @@ def reset():
     else:
         cursor.execute("""UPDATE `users` SET `password` = '{}' WHERE (`ID` = '{}');""".format(P1, user_Id))
         conn.commit()
-        error = "Password reset Successfully"
-        return render_template("login.html", error=error)
+        success = "Password reset Successfully"
+        return render_template("login.html", success=success)
 
 @app.route('/forget')
 def forget():

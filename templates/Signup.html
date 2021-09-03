@@ -1,17 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="card mt-85 aq">
-        <div class="card-body">
-            <form class="form" method="post" action="/add_login">
-                <label>User ID</label><br>
-                <input class="form-control" type="text" name="Id"><br>
-                <label>Mobile No.</label><br>
-                <input class="form-control" type="tel" name="Mno"><br>
-                <label>Password</label><div id="alert"></div>
-                <input class="form-control" type="password" name="password"><br><br>
-                <input type="submit" class="btn btn-dark btn-block btn-lg" value="Sign up">
-                <strong><p style="margin-top:10px ">Already a member?<a class="blink_me" href="/" style="margin-left: 20px">Log In</a></p></strong>
-            </form>
-        </div>
+<div class="card mt-85 aq">
+    <div class="card-body">
+        <form class="form" method="post" action="/add_login">
+            <label>User ID</label><br>
+            <input class="form-control" type="text" name="Id"><br>
+            <label>Mobile No.</label><br>
+            <input class="form-control" type="tel" name="Mno"><br>
+            <label>Password</label>
+            <div id="alert"></div>
+            <input class="form-control" type="password" name="password"><br><br>
+            <input type="submit" class="btn btn-dark btn-block btn-lg" value="Sign up">
+            <strong>
+                <p style="margin-top:10px ">Already a member?<a class="blink_me" href="/" style="margin-left: 20px">Log
+                        In</a></p>
+            </strong>
+        </form>
     </div>
+</div>
 {% endblock %}
