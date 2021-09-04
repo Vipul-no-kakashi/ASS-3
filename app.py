@@ -80,8 +80,8 @@ def add_user():
         return render_template('login.html', error=error)
     cursor.execute("""INSERT INTO users (`ID`, `Mno`, `password`) VALUES('{}', '{}', '{}');""".format(user_Id, Mno, password))
     conn.commit()
-    # return render_template('login.html')
-    return "Login ADDed"
+    return render_template('login.html')
+    # return "Login ADDed"
 
 if __name__ == '__main__':
     app.run(debug=True, port='8000')
