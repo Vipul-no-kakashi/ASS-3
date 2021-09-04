@@ -30,7 +30,7 @@ background: ghostwhite;  /* fallback for old browsers */
     background: #282525;
 }
 a {
-    color: #9C1A1C;
+    color: darkblue;
 }
 
 .blink_me {
@@ -54,4 +54,13 @@ a {
 }
 .card_col{
     background: #eeddff;
+}
+.size{
+    font-size: 3vw;
+}
+#Welcome{
+    text-align: center;
+    font-family: 'Tangerine',serif;
+    font-size: xxx-large;
+    text-shadow: 4px 4px 4px #aaa;
 }

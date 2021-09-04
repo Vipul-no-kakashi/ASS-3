@@ -9,7 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">>
     <link rel="stylesheet" href="../static/css/styles.css">
+    <style>
+
+    </style>
     <title>Home</title>
 </head>
 
@@ -17,14 +22,27 @@
     <nav class="navbar navbar-dark navcol">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/static/iiti_logo.png" width="476" height="87" class="d-inline-block align-top" alt="">
-                <strong class="navbar-text pull-left"
-                    style="font-size: 40px;font-family: 'Lucida Handwriting';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{
-                    user }}</strong>
+                <img src="/static/iiti_logo.png" width="280px" height="70%" class="d-inline-block align-top" alt="">
             </a>
+           <div class="btn-group size">
+  <button type="button" class="btn btn-info">
+      <strong class="navbar-text pull-right" style=" font-family: 'Lucida Handwriting';">{{user}}</strong>
+  </button>
+  <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+        <a class="dropdown-item" href="/" onclick="preventBack()">
+                <i class="fa fa-sign-out" style="font-size:2vw;">Logout</i>
+        </a>
+  </div>
+    </div>
         </div>
     </nav>
+    <div class="abc"></div>
+    <div id="Welcome" class="col-md-12">
+    <strong><h1 >Welcome to IIT Indore</h1></strong>
+    </div>
     <div class="mt-85 col-md-11 pml-12">
         {# <div class="row">#}
             <div id="accordion">
@@ -177,29 +195,39 @@
                                             <div class="col-4">
                                                 <div class="list-group" id="list-tab" role="tablist">
                                                     <a class="list-group-item list-group-item-action active"
-                                                        id="list-home-list" data-toggle="list" href="#list-home"
-                                                        role="tab" aria-controls="home">Home</a>
+                                                        id="list-Minor-list" data-toggle="list" href="#list-Minor"
+                                                        role="tab" aria-controls="Minor">Minor</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-profile-list" data-toggle="list" href="#list-profile"
-                                                        role="tab" aria-controls="profile">Profile</a>
+                                                        id="list-MA-203-list" data-toggle="list" href="#list-MA-203"
+                                                        role="tab" aria-controls="MA-203">MA-203</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-messages-list" data-toggle="list" href="#list-messages"
-                                                        role="tab" aria-controls="messages">Messages</a>
+                                                        id="list-CS-201-list" data-toggle="list" href="#list-CS-201"
+                                                        role="tab" aria-controls="CS-201">CS-201</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-settings-list" data-toggle="list" href="#list-settings"
-                                                        role="tab" aria-controls="settings">Settings</a>
+                                                        id="list-CS-203 + CS253-list" data-toggle="list" href="#list-CS-203 + CS253"
+                                                        role="tab" aria-controls="CS-203 + CS253">CS-203 + CS-253</a>
+                                                    <a class="list-group-item list-group-item-action"
+                                                        id="list-CS-201 + CS-257-list" data-toggle="list" href="#list-CS-201 + CS-257"
+                                                        role="tab" aria-controls="CS-201 + CS-257">CS-207 + CS-257</a>
+                                                    <a class="list-group-item list-group-item-action"
+                                                        id="list-IC-211-list" data-toggle="list" href="#list-IC-211"
+                                                        role="tab" aria-controls="IC-211">IC-211</a>
                                                 </div>
                                             </div>
                                             <div class="col-8">
                                                 <div class="tab-content" id="nav-tabContent">
-                                                    <div class="tab-pane fade show active" id="list-home"
-                                                        role="tabpanel" aria-labelledby="list-home-list">...</div>
-                                                    <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                                                        aria-labelledby="list-profile-list">...</div>
-                                                    <div class="tab-pane fade" id="list-messages" role="tabpanel"
-                                                        aria-labelledby="list-messages-list">...</div>
-                                                    <div class="tab-pane fade" id="list-settings" role="tabpanel"
-                                                        aria-labelledby="list-settings-list">...</div>
+                                                    <div class="tab-pane fade show active" id="list-Minor"
+                                                        role="tabpanel" aria-labelledby="list-Minor-list">...</div>
+                                                    <div class="tab-pane fade" id="list-MA-203" role="tabpanel"
+                                                        aria-labelledby="list-MA-203-list">...</div>
+                                                    <div class="tab-pane fade" id="list-CS-201" role="tabpanel"
+                                                        aria-labelledby="list-CS-201-list">...</div>
+                                                    <div class="tab-pane fade" id="list-CS-203 + CS253" role="tabpanel"
+                                                        aria-labelledby="list-CS-203 + CS253-list">.8895477</div>
+                                                    <div class="tab-pane fade" id="list-CS-201 + CS-257" role="tabpanel"
+                                                        aria-labelledby="list-CS-201 + CS-257-list">.4545.</div>
+                                                    <div class="tab-pane fade" id="list-IC-211" role="tabpanel"
+                                                        aria-labelledby="list-IC-211-list">.4626.</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -231,6 +259,12 @@
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-messages-list" data-toggle="list" href="#list-messages"
                                                         role="tab" aria-controls="messages">Messages</a>
+                                                    <a class="list-group-item list-group-item-action"
+                                                        id="list-settings-list" data-toggle="list" href="#list-settings"
+                                                        role="tab" aria-controls="settings">Settings</a>
+                                                    <a class="list-group-item list-group-item-action"
+                                                        id="list-settings-list" data-toggle="list" href="#list-settings"
+                                                        role="tab" aria-controls="settings">Settings</a>
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-settings-list" data-toggle="list" href="#list-settings"
                                                         role="tab" aria-controls="settings">Settings</a>
@@ -481,6 +515,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script>
+  function preventBack(){window.history.forward();}
+  setTimeout("preventBack()", 0);
+  window.onunload=function(){null};
+  setTimeout(function(){
+  $('#Welcome').remove();
+}, 5000);
+</script>
 </body>
 
 </html>
