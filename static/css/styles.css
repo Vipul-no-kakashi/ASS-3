@@ -23,6 +23,10 @@ background: ghostwhite;  /* fallback for old browsers */
     width:100%;
     height:80px
 }
+.abq{
+    width: 100%;
+    height : 50px;
+}
 .aq{
     background: #e7f9ff;
 }
