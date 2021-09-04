@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d70b9aa-9673-4b31-a36e-e83106bd668e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/forget.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forget.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reset.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +72,7 @@
       <workItem from="1630469567427" duration="21708000" />
       <workItem from="1630511656182" duration="870000" />
       <workItem from="1630570271366" duration="21588000" />
-      <workItem from="1630650308584" duration="4901000" />
+      <workItem from="1630650308584" duration="11762000" />
     </task>
     <task id="LOCAL-00001" summary="good">
       <created>1630596024759</created>
@@ -101,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630606244817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="success made 2">
+      <created>1630655255044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630655255044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="success made 2">
+      <created>1630655288463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630655288463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,9 +119,10 @@
     <MESSAGE value="good" />
     <MESSAGE value="good2" />
     <MESSAGE value="success made" />
-    <option name="LAST_COMMIT_MESSAGE" value="success made" />
+    <MESSAGE value="success made 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="success made 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ass3$ass3.coverage" NAME="ass3 Coverage Results" MODIFIED="1630654764732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ass3$ass3.coverage" NAME="ass3 Coverage Results" MODIFIED="1630662993381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
