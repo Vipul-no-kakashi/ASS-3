@@ -9,9 +9,9 @@ conn = mysql.connector.connect(
 )
 cursor = conn.cursor()
 
-@app.route('/a')
-def a():
-    return render_template("Success.html", user=200001080)
+# @app.route('/a')
+# def a():
+#     return render_template("Success.html", user=200001080)
 
 @app.route('/')
 def hello_world():
