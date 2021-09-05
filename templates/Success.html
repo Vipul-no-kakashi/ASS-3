@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <!-- Required meta tags -->
@@ -24,24 +24,27 @@
             <a class="navbar-brand" href="#">
                 <img src="/static/iiti_logo.png" width="280px" height="70%" class="d-inline-block align-top" alt="">
             </a>
-           <div class="btn-group size">
-  <button type="button" class="btn btn-info">
-      <strong class="navbar-text pull-right" style=" font-family: 'Lucida Handwriting';">{{user}}</strong>
-  </button>
-  <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <div class="dropdown-menu">
-        <a class="dropdown-item" href="/" onclick="preventBack()">
-                <i class="fa fa-sign-out" style="font-size:2vw;">Logout</i>
-        </a>
-  </div>
-    </div>
+            <div class="btn-group size">
+                <button type="button" class="btn btn-info">
+                    <strong class="navbar-text pull-right" style=" font-family: 'Lucida Handwriting';">{{user}}</strong>
+                </button>
+                <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/" onclick="preventBack()">
+                        <i class="fa fa-sign-out" style="font-size:20px;">Logout</i>
+                    </a>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="abc"></div>
     <div id="Welcome" class="col-md-12">
-    <strong><h1 style="color: chartreuse">Welcome to IIT Indore</h1></strong>
+        <strong>
+            <h1 style="color: chartreuse">Welcome to IIT Indore</h1>
+        </strong>
     </div>
     <div class="mt-85 col-md-11 pml-12">
         {# <div class="row">#}
@@ -83,8 +86,9 @@
                                                         id="list-PH-105-list" data-toggle="list" href="#list-PH-105"
                                                         role="tab" aria-controls="PH-105">PH-105</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-CS-103 + IC-153-list" data-toggle="list" href="#list-CS-103 + IC-153"
-                                                        role="tab" aria-controls="CS-103 + IC-153">CS-103 + IC-153</a>
+                                                        id="list-CS-103 + IC-153-list" data-toggle="list"
+                                                        href="#list-CS-103 + IC-153" role="tab"
+                                                        aria-controls="CS-103 + IC-153">CS-103 + IC-153</a>
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-HS-159-list" data-toggle="list" href="#list-HS-159"
                                                         role="tab" aria-controls="HS-159">HS-159</a>
@@ -95,16 +99,22 @@
                                                     <div class="tab-pane fade show active" id="list-CH-103"
                                                         role="tabpanel" aria-labelledby="list-CH-103-list">
                                                         <strong>Chemistry</strong><br>
-                                                        <strong>Linking microscopic and bulk thermodynamic properties:</strong>
-                                                        Distribution of molecular states and relation to entropy, Boltzmann
+                                                        <strong>Linking microscopic and bulk thermodynamic
+                                                            properties:</strong>
+                                                        Distribution of molecular states and relation to entropy,
+                                                        Boltzmann
                                                         distribution, ensembles, partition functions.
-                                                        <strong>Elucidation of structure and properties:</strong> Experimental techniques,
+                                                        <strong>Elucidation of structure and properties:</strong>
+                                                        Experimental techniques,
                                                         Interaction light with matter, absorption and emission spectra,
                                                         intensities of spectral lines, Beer-Lambert law, spontaneous and
-                                                        simulated emission, transition moments and selection rules, FranckCondon principle, lasers and fluorescence.
-                                                        <strong>Chemical Bonding:</strong> Valence Bond Theory (VBT), Molecular Orbital
+                                                        simulated emission, transition moments and selection rules,
+                                                        FranckCondon principle, lasers and fluorescence.
+                                                        <strong>Chemical Bonding:</strong> Valence Bond Theory (VBT),
+                                                        Molecular Orbital
                                                         Theory (MOT)
-                                                        <stong>Structure and Bonding of Coordination Complexes:</stong> Tetrahedral,
+                                                        <stong>Structure and Bonding of Coordination Complexes:</stong>
+                                                        Tetrahedral,
                                                         Octahedral, Square planar and Square Pyramidal complexes
                                                         Introduction to Organometallic Complexes: Structure and Bonding
                                                         Application of Coordination Complexes
@@ -113,53 +123,70 @@
                                                         aria-labelledby="list-MA-105-list">
                                                         <strong>Calculus</strong><br>
                                                         Review of limits, continuity, differentiability.
-Mean Value Theorem, Taylor Theorem, Maxima and Minima.
-Riemann integrals, Fundamental theorem of Calculus, Improper
-integrals, application to area, volume.
-Convergence of sequences and series, power series.
-Partial Derivatives, gradient and directional derivatives, chain rule,
-maxima and minima, Lagrange multipliers.
-Double and triple integration, Jacobians and change of variables
-formula.
-Parametrization of curves and surfaces, vector fields, line and surface
-integrals. Divergence and curl, theorems of Green, Gauss, Stokes.
+                                                        Mean Value Theorem, Taylor Theorem, Maxima and Minima.
+                                                        Riemann integrals, Fundamental theorem of Calculus, Improper
+                                                        integrals, application to area, volume.
+                                                        Convergence of sequences and series, power series.
+                                                        Partial Derivatives, gradient and directional derivatives, chain
+                                                        rule,
+                                                        maxima and minima, Lagrange multipliers.
+                                                        Double and triple integration, Jacobians and change of variables
+                                                        formula.
+                                                        Parametrization of curves and surfaces, vector fields, line and
+                                                        surface
+                                                        integrals. Divergence and curl, theorems of Green, Gauss,
+                                                        Stokes.
                                                     </div>
                                                     <div class="tab-pane fade" id="list-PH-105" role="tabpanel"
                                                         aria-labelledby="list-PH-105-list">
                                                         <strong>Physics I</strong><br>
-                                                        <strong>Quantum Mechanics:</strong> Review of quantum concepts, Particle nature of
-light, Photoelectric effect, Compton effect, Waves, Wave packets,
-Phase and Group velocity, Davisson Germer Experiment, Heisenberg
-uncertainty principle, Schrodinger equation, Probabilistic interpretation of wave function.
-One dimensional problems- Particle in a box, Potential well, Potential
-barrier and Tunneling, Harmonic oscillator. Hydrogen atom.
-Elements of statistical physics: Maxwellian distribution, Bose-Einstein
-and Fermi-Dirac distributions.
-<strong>Solid State Physics:</strong> Crystalline and Amorphous Solids, Bonding in
-solids, Ionic Crystals, Covalent Crystals, Defects in crystals, Band
-Theory of Solids, Brillouin Zones, Origin of Forbidden bands,
-Semiconductor Devices,
-<strong>Wave Optics: </strong>Principle of superposition, Bi-Prism, Interference in thin
-films, Two Beam and Multiple Beam interferometers. Diffraction at
-single slit, Two slits and N-Slits
+                                                        <strong>Quantum Mechanics:</strong> Review of quantum concepts,
+                                                        Particle nature of
+                                                        light, Photoelectric effect, Compton effect, Waves, Wave
+                                                        packets,
+                                                        Phase and Group velocity, Davisson Germer Experiment, Heisenberg
+                                                        uncertainty principle, Schrodinger equation, Probabilistic
+                                                        interpretation of wave function.
+                                                        One dimensional problems- Particle in a box, Potential well,
+                                                        Potential
+                                                        barrier and Tunneling, Harmonic oscillator. Hydrogen atom.
+                                                        Elements of statistical physics: Maxwellian distribution,
+                                                        Bose-Einstein
+                                                        and Fermi-Dirac distributions.
+                                                        <strong>Solid State Physics:</strong> Crystalline and Amorphous
+                                                        Solids, Bonding in
+                                                        solids, Ionic Crystals, Covalent Crystals, Defects in crystals,
+                                                        Band
+                                                        Theory of Solids, Brillouin Zones, Origin of Forbidden bands,
+                                                        Semiconductor Devices,
+                                                        <strong>Wave Optics: </strong>Principle of superposition,
+                                                        Bi-Prism, Interference in thin
+                                                        films, Two Beam and Multiple Beam interferometers. Diffraction
+                                                        at
+                                                        single slit, Two slits and N-Slits
                                                     </div>
                                                     <div class="tab-pane fade" id="list-CS-103 + IC-153" role="tabpanel"
                                                         aria-labelledby="list-CS-103 + IC-153-list">
                                                         <strong>Computer Science and Engineering</strong>
                                                         <ol>
                                                             <li>
-                                                                Developer fundamentals such as editor, integrated programming
-environment, Turbo C++ and/or Microsoft Visual C++ Programming
-environment, modules, libraries.
+                                                                Developer fundamentals such as editor, integrated
+                                                                programming
+                                                                environment, Turbo C++ and/or Microsoft Visual C++
+                                                                Programming
+                                                                environment, modules, libraries.
                                                             </li>
                                                             <li>
-                                                                Programming features: Machine representation, primitive types,
-arrays and records, objects, expressions, control statements,
-iteration, procedures, functions, and basic i/o
+                                                                Programming features: Machine representation, primitive
+                                                                types,
+                                                                arrays and records, objects, expressions, control
+                                                                statements,
+                                                                iteration, procedures, functions, and basic i/o
                                                             </li>
                                                             <li>
-                                                                Sample problems in engineering, science, text processing, and
-numerical methods.
+                                                                Sample problems in engineering, science, text
+                                                                processing, and
+                                                                numerical methods.
                                                             </li>
                                                         </ol>
                                                     </div>
@@ -167,7 +194,7 @@ numerical methods.
                                                         aria-labelledby="list-HS-159-list">
                                                         <strong>English Communication</strong><br>
                                                         To improve English Reading, Comprehension and Writing skills of
-the students
+                                                        the students
                                                     </div>
                                                 </div>
                                             </div>
@@ -195,14 +222,16 @@ the students
                                                         id="list-BSE-102-list" data-toggle="list" href="#list-BSE-102"
                                                         role="tab" aria-controls="BSE-102">BSE-102</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-PH-106 + PH 156-list" data-toggle="list" href="#list-PH-106 + PH 156"
-                                                        role="tab" aria-controls="PH-106 + PH 156">PH-106 + PH 156</a>
+                                                        id="list-PH-106 + PH 156-list" data-toggle="list"
+                                                        href="#list-PH-106 + PH 156" role="tab"
+                                                        aria-controls="PH-106 + PH 156">PH-106 + PH 156</a>
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-MA-106-list" data-toggle="list" href="#list-MA-106"
                                                         role="tab" aria-controls="MA-106">MA-106</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-EE-104 + 154-list" data-toggle="list" href="#list-EE-104 + 154"
-                                                        role="tab" aria-controls="EE-104 + 154">EE-104 + 154</a>
+                                                        id="list-EE-104 + 154-list" data-toggle="list"
+                                                        href="#list-EE-104 + 154" role="tab"
+                                                        aria-controls="EE-104 + 154">EE-104 + 154</a>
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-ME-106-list" data-toggle="list" href="#list-ME-106"
                                                         role="tab" aria-controls="ME-106">ME-106</a>
@@ -217,49 +246,63 @@ the students
                                                         role="tabpanel" aria-labelledby="list-BSE-102-list">
                                                         <strong>Biosciences</strong><br>
                                                         This course intends to give knowledge about the basics of
-biology to engineering students who might not be in touch with
-this subject after their matriculation.
+                                                        biology to engineering students who might not be in touch with
+                                                        this subject after their matriculation.
                                                     </div>
                                                     <div class="tab-pane fade" id="list-PH-106 + PH 156" role="tabpanel"
                                                         aria-labelledby="list-PH-106 + PH 156-list">
                                                         <strong>Physics II</strong><br>
-                                                        <strong>Electrostatics:</strong> Coulomb's law, Gauss theorem, electric potential,
-Laplace's equation, Poisson's equation, electrostatics with conductors,
-                                                        capacitors, dielectrics. <strong>Magnetostatics:</strong> Biot Savart's law, Ampere's law,
-Lorentz force.
-                                                        <strong>Magnetic</strong> Induction: Faraday's law, Lenz's law, self and mutual
-inductance, energy in a magnetic field, LCR circuit, resonance.
-                                                        <strong>Maxwell's equations:</strong> displacement current, electromagnetic waves,
-plane wave solutions of Maxwell's equations, Poynting vector, wave
-propagation through a boundary, reflection, refraction, absorption and
-skin depth
+                                                        <strong>Electrostatics:</strong> Coulomb's law, Gauss theorem,
+                                                        electric potential,
+                                                        Laplace's equation, Poisson's equation, electrostatics with
+                                                        conductors,
+                                                        capacitors, dielectrics. <strong>Magnetostatics:</strong> Biot
+                                                        Savart's law, Ampere's law,
+                                                        Lorentz force.
+                                                        <strong>Magnetic</strong> Induction: Faraday's law, Lenz's law,
+                                                        self and mutual
+                                                        inductance, energy in a magnetic field, LCR circuit, resonance.
+                                                        <strong>Maxwell's equations:</strong> displacement current,
+                                                        electromagnetic waves,
+                                                        plane wave solutions of Maxwell's equations, Poynting vector,
+                                                        wave
+                                                        propagation through a boundary, reflection, refraction,
+                                                        absorption and
+                                                        skin depth
                                                     </div>
                                                     <div class="tab-pane fade" id="list-ME-106" role="tabpanel"
                                                         aria-labelledby="list-ME-106-list">
                                                         <strong>Basic Mechanical Engineering</strong><br>
                                                         Introduces all the basic concepts of Mechanical Engineering <br>
                                                         Thermal Engineering , Introduction to metal forming operations,
-                                                         Introduction to machine tools, Introduction to joining methods,
-                                                         Introduction to metal casting processes, Introduction to Manufacturing
+                                                        Introduction to machine tools, Introduction to joining methods,
+                                                        Introduction to metal casting processes, Introduction to
+                                                        Manufacturing
                                                     </div>
                                                     <div class="tab-pane fade" id="list-MA-106" role="tabpanel"
                                                         aria-labelledby="list-MA-106-list">
-                                                        <strong>Linear Algebra and Ordinary Differential Equations-I </strong>
+                                                        <strong>Linear Algebra and Ordinary Differential Equations-I
+                                                        </strong>
                                                         <br>
                                                         linear algebra, Vector Space, Differential equations
                                                     </div>
                                                     <div class="tab-pane fade" id="list-EE-104 + 154" role="tabpanel"
                                                         aria-labelledby="list-EE-104 + 154-list">
-                                                        <strong>Basic Electrical and Electronics Engineering</strong><br>
-                                                        Introduction: basic physical laws, basic circuit elements, Kirchoff''s
-voltage law (KVL), Kirchoff''s current law (KCL), and a few important
-circuit theorems, simple circuits.
-Transients in R-L, R-C, R-L-C, Sinusoidal Steady State, Real/ Reactive
-Power, Three phase power.
-Working Principles of Transformers/AC/DC machines.
-Functional Characteristics of Diode, BJT, OP-AMP.
-Analog circuit examples: rectifiers, amplifiers, oscillators, etc.
-Digital circuits: AND/OR gates, Flip Flops, DAC/ADC, etc.
+                                                        <strong>Basic Electrical and Electronics
+                                                            Engineering</strong><br>
+                                                        Introduction: basic physical laws, basic circuit elements,
+                                                        Kirchoff''s
+                                                        voltage law (KVL), Kirchoff''s current law (KCL), and a few
+                                                        important
+                                                        circuit theorems, simple circuits.
+                                                        Transients in R-L, R-C, R-L-C, Sinusoidal Steady State, Real/
+                                                        Reactive
+                                                        Power, Three phase power.
+                                                        Working Principles of Transformers/AC/DC machines.
+                                                        Functional Characteristics of Diode, BJT, OP-AMP.
+                                                        Analog circuit examples: rectifiers, amplifiers, oscillators,
+                                                        etc.
+                                                        Digital circuits: AND/OR gates, Flip Flops, DAC/ADC, etc.
 
                                                     </div>
                                                     <div class="tab-pane fade" id="list-HS-108" role="tabpanel"
@@ -267,14 +310,15 @@ Digital circuits: AND/OR gates, Flip Flops, DAC/ADC, etc.
                                                         <strong>Economics</strong><br>
                                                         <strong>Micoeconomics :</strong><br>
                                                         What is Economics? basic economic problems and
-nature of economics; demand and supply; consumer choice; individual
-and market demand; production and cost of production; profit
-maximization and perfect competition;
+                                                        nature of economics; demand and supply; consumer choice;
+                                                        individual
+                                                        and market demand; production and cost of production; profit
+                                                        maximization and perfect competition;
                                                         <strong>Macroeconomics</strong><br>
                                                         National income accounting- income, expenditure
-and components of GDP; consumption and saving; investment
-spending and demand for money; financial systems- central bank,
-money, credit, financial markets and asset prices
+                                                        and components of GDP; consumption and saving; investment
+                                                        spending and demand for money; financial systems- central bank,
+                                                        money, credit, financial markets and asset prices
                                                     </div>
                                                 </div>
                                             </div>
@@ -322,11 +366,13 @@ money, credit, financial markets and asset prices
                                                         id="list-CS-201-list" data-toggle="list" href="#list-CS-201"
                                                         role="tab" aria-controls="CS-201">CS-201</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-CS-203 + CS253-list" data-toggle="list" href="#list-CS-203 + CS253"
-                                                        role="tab" aria-controls="CS-203 + CS253">CS-203 + CS-253</a>
+                                                        id="list-CS-203 + CS253-list" data-toggle="list"
+                                                        href="#list-CS-203 + CS253" role="tab"
+                                                        aria-controls="CS-203 + CS253">CS-203 + CS-253</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-CS-201 + CS-257-list" data-toggle="list" href="#list-CS-201 + CS-257"
-                                                        role="tab" aria-controls="CS-201 + CS-257">CS-207 + CS-257</a>
+                                                        id="list-CS-201 + CS-257-list" data-toggle="list"
+                                                        href="#list-CS-201 + CS-257" role="tab"
+                                                        aria-controls="CS-201 + CS-257">CS-207 + CS-257</a>
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-IC-211-list" data-toggle="list" href="#list-IC-211"
                                                         role="tab" aria-controls="IC-211">IC-211</a>
@@ -348,37 +394,46 @@ money, credit, financial markets and asset prices
                                                         aria-labelledby="list-CS-201-list">
                                                         <strong>Discrete Mathematical Structures</strong><br>
                                                         Propositions and predicates, proofs and proof techniques.
-Sets, relations and functions, cardinality, basic counting.
-                                                        <strong>Posets and lattices:</strong> Dilworth`s theorem, inversion and distributive
-lattices.
-                                                        <strong>Graph theory:</strong> paths, cycles, trees, connectivity.
-                                                        <strong>Group theory:</strong> Lagrange`s theorem, homomorphisms, applications.
+                                                        Sets, relations and functions, cardinality, basic counting.
+                                                        <strong>Posets and lattices:</strong> Dilworth`s theorem,
+                                                        inversion and distributive
+                                                        lattices.
+                                                        <strong>Graph theory:</strong> paths, cycles, trees,
+                                                        connectivity.
+                                                        <strong>Group theory:</strong> Lagrange`s theorem,
+                                                        homomorphisms, applications.
                                                     </div>
                                                     <div class="tab-pane fade" id="list-CS-203 + CS253" role="tabpanel"
                                                         aria-labelledby="list-CS-203 + CS253-list">
                                                         <strong>Data Structure And Algorithm :</strong><br>
                                                         This Course is designed to provide an introduction to the
-theory and practice of different data structures. This course will
-also provide familiarity with the algorithms for those data
-structure
+                                                        theory and practice of different data structures. This course
+                                                        will
+                                                        also provide familiarity with the algorithms for those data
+                                                        structure
                                                     </div>
                                                     <div class="tab-pane fade" id="list-CS-201 + CS-257" role="tabpanel"
                                                         aria-labelledby="list-CS-201 + CS-257-list">
                                                         <strong>Database and Information System</strong><br>
                                                         Nature of Business Systems and Data Processing. Data Models, ER
-Model, ER Diagrams, UML Class Diagrams. Relational model and query
-languages (relational algebra and calculus, SQL). Integrity and Security.
-Database design and normalization. XML and x query.
-Storage structures. Indexing and Hashing Techniques. Query
-processing and optimization, transactions, concurrency control and
-recovery.
-Introduction to decision support and data analysis, data warehousing and
-data mining. Information Retrieval.
+                                                        Model, ER Diagrams, UML Class Diagrams. Relational model and
+                                                        query
+                                                        languages (relational algebra and calculus, SQL). Integrity and
+                                                        Security.
+                                                        Database design and normalization. XML and x query.
+                                                        Storage structures. Indexing and Hashing Techniques. Query
+                                                        processing and optimization, transactions, concurrency control
+                                                        and
+                                                        recovery.
+                                                        Introduction to decision support and data analysis, data
+                                                        warehousing and
+                                                        data mining. Information Retrieval.
                                                     </div>
                                                     <div class="tab-pane fade" id="list-IC-211" role="tabpanel"
                                                         aria-labelledby="list-IC-211-list">
                                                         <strong>Experimental Engineering Lab</strong><br>
-                                                        It is basically lab course which involves many mechatronics stuff.
+                                                        It is basically lab course which involves many mechatronics
+                                                        stuff.
                                                     </div>
                                                 </div>
                                             </div>
@@ -425,19 +480,62 @@ data mining. Information Retrieval.
                                             <div class="col-md-8">
                                                 <div class="tab-content" id="nav-tabContent">
                                                     <div class="tab-pane fade show active" id="list-Minor2"
-                                                        role="tabpanel" aria-labelledby="list-Minor2-list">This second Minor course</div>
+                                                        role="tabpanel" aria-labelledby="list-Minor2-list">This second
+                                                        Minor course</div>
                                                     <div class="tab-pane fade" id="list-MA 204" role="tabpanel"
                                                         aria-labelledby="list-MA 204-list">
-                                                        <strong></strong>
+                                                        <strong>Numerical Methods</strong><br>
+                                                        It is a course on how to solve mathematical equation
+                                                        approximately using some mathematical theories and interpolation
+                                                        of polynomial.
                                                     </div>
-                                                    <div class="tab-pane fade" id="list-202" role="tabpanel"
-                                                        aria-labelledby="list-202-list">...</div>
+                                                    <div class="tab-pane fade" id="list-CS 202" role="tabpanel"
+                                                        aria-labelledby="list-CS 202-list">
+                                                        <strong>Automata Theory and Logic</strong><br>
+                                                        <strong>Pre–requisite:-</strong> Discrete Mathematical
+                                                        Structures
+                                                        <br>Predicate logic, Propositional logic, Formal Language,
+                                                        Turing Machine.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 204" role="tabpanel"
-                                                        aria-labelledby="list-CS 204-list">...</div>
+                                                        aria-labelledby="list-CS 204-list">
+                                                        <strong>Design and Analysis of Algorithms</strong><br>
+                                                        <strong>Pre–requisite:-</strong> Data Structures Algorithms
+                                                        <br>Models of computation, algorithm analysis, time and space
+                                                        complexity,
+                                                        average and worst case analysis, lower bounds.
+                                                        Algorithm design techniques: divide and conquer, greedy, dynamic
+                                                        programming, amortization, randomization.
+                                                        Problem classes: P, NP, PSPACE; reducibility, NP-hard and
+                                                        NPcomplete problems.
+                                                        Approximation algorithms for some NP-hard problems
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 206" role="tabpanel"
-                                                        aria-labelledby="list-CS 206-list">...</div>
+                                                        aria-labelledby="list-CS 206-list">
+                                                        <strong>Logic Design</strong><br>
+                                                        Switching theory: Introduction to number systems, Computer
+                                                        arithmetic, switching function and logic circuits, Combinational
+                                                        Logic, Canonical Logic Forms, K-maps Standard logic (SSI, MSI)
+                                                        vs. programmable logic (PLD, PGA).
+                                                        Finite state machine design: logic, minimization and races.
+                                                        Arithmetic unit, Control unit design, Logic design applications
+                                                        in
+                                                        computer systems, Introduction to computer-aided design
+                                                        Software,
+                                                        FPGA overview, Introduction to design automation and design
+                                                        through Higher level languages like VHDL.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 208" role="tabpanel"
-                                                        aria-labelledby="list-CS 208-list">...</div>
+                                                        aria-labelledby="list-CS 208-list">
+                                                        <strong>Software Engineering</strong><br>
+                                                        To provide students with an environment in which to experience
+                                                        the process of Software Development by working through ‘real
+                                                        world’ projects <br>Students would be made to go through and
+                                                        experience the
+                                                        various phases of the Software Development Life Cycle by
+                                                        working on a real project and sequentially working through the
+                                                        phases.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -493,16 +591,75 @@ data mining. Information Retrieval.
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="tab-content" id="nav-tabContent">
-                                                    <div class="tab-pane fade show active" id="list-Minor3" role="tabpanel"
-                                                        aria-labelledby="list-Minor3-list">...</div>
+                                                    <div class="tab-pane fade show active" id="list-Minor3"
+                                                        role="tabpanel" aria-labelledby="list-Minor3-list">
+                                                        This is 3rd Minor Course.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 309" role="tabpanel"
-                                                        aria-labelledby="list-CS 309-list">...</div>
+                                                        aria-labelledby="list-CS 309-list">
+                                                        <strong>Parallel Computing</strong><br>
+                                                        <strong>Introduction to Parallel Algorithms:</strong> Basic
+                                                        schemes for
+                                                        parallelization: list ranking. NC class. Parallel Context Free
+                                                        Grammar
+                                                        Parsing Algorithms.
+                                                        <strong>Distributed Computing:</strong> absence of global
+                                                        states; causal ordering of
+                                                        events.
+                                                        <strong>Distributed architectures:</strong> shared memory and
+                                                        message passing,
+                                                        Programming Models such as PVM; MPI; Linda; ORCA, Distributed
+                                                        algorithms: mutual exclusion, consensus, leader election. Clock
+                                                        synchronization, distributed termination.
+                                                        <strong>Fault Tolerance:</strong> fail-stop and byzantine
+                                                        models.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 303" role="tabpanel"
-                                                        aria-labelledby="list-CS 303-list">...</div>
+                                                        aria-labelledby="list-CS 303-list">
+                                                        <strong>Operating Systems</strong><br>
+                                                        Fundamental goals of operating systems
+                                                        Overview of important features of computer architectures for OS
+                                                        operation. Issues in user service and system performance.
+                                                        Overview of operating systems: multiprogramming, time sharing,
+                                                        deal
+                                                        time and distribute operating systems. Concurrency and
+                                                        parallelism.
+                                                        Processes and threads, Process synchronization. Process
+                                                        deadlocks.
+                                                        Memory management. Memory fragmentation and techniques for
+                                                        memory reuse. Virtual memory using paging. Segmentation.
+                                                        File systems. Implementation of file Operations. Protection of
+                                                        files.
+                                                        Case studies of contemporary operating systems
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 305" role="tabpanel"
-                                                        aria-labelledby="list-CS 305-list">...</div>
+                                                        aria-labelledby="list-CS 305-list">
+                                                        <strong>Computer Architecture</strong><br>
+                                                        <strong>Assembly Level Organization:</strong> instruction
+                                                        formats, addressing
+                                                        mechanisms, Architecture and programming of 8085 and or x86
+                                                        architectures, microprogramming, Arithmetic and Logic Unit.
+                                                        <strong>Memory Systems:</strong> memory hierarchy, main
+                                                        memories, cache, virtual
+                                                        memory, Pipeline processing.
+                                                        <strong>Interfacing and Communication:</strong> I/O, interrupts,
+                                                        buses. Multiprocessor
+                                                        and alternative architectures, Contemporary architectures
+                                                        Computer
+                                                        organization and architecture Lab Machine/Assembly programming,
+                                                        Design of basic computing units.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 307" role="tabpanel"
-                                                        aria-labelledby="list-CS 307-list">...</div>
+                                                        aria-labelledby="list-CS 307-list">
+                                                        <strong>Optimization Algorithms and Techniques</strong><br>
+                                                        <strong>Pre requistie :</strong> Data Structure and algorithm
+                                                        <br>
+                                                        <ul>
+                                                            <li>Introduction to Optimization and Math Foundations</li>
+                                                            <li>Linear Optimization</li>
+                                                            <li>Nonlinear Optimization</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -526,8 +683,9 @@ data mining. Information Retrieval.
                                             <div class="col-md-4">
                                                 <div class="list-group" id="list-tab" role="tablist">
                                                     <a class="list-group-item list-group-item-action active"
-                                                        id="list-HS 302 + ES 302-list" data-toggle="list" href="#list-HS 302 + ES 302"
-                                                        role="tab" aria-controls="HS 302 + ES 302">HS 302 + ES 302</a>
+                                                        id="list-HS 302 + ES 302-list" data-toggle="list"
+                                                        href="#list-HS 302 + ES 302" role="tab"
+                                                        aria-controls="HS 302 + ES 302">HS 302 + ES 302</a>
                                                     <a class="list-group-item list-group-item-action"
                                                         id="list-CS 302-list" data-toggle="list" href="#list-CS 302"
                                                         role="tab" aria-controls="CS 302">CS 302 + CS 352</a>
@@ -544,16 +702,61 @@ data mining. Information Retrieval.
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="tab-content" id="nav-tabContent">
-                                                    <div class="tab-pane fade show active " id="list-HS 302 + ES 302" role="tabpanel"
-                                                        aria-labelledby="list-HS 302 + ES 302-list">...</div>
+                                                    <div class="tab-pane fade show active " id="list-HS 302 + ES 302"
+                                                        role="tabpanel" aria-labelledby="list-HS 302 + ES 302-list">
+                                                        HS 302 And ES 302 both are half semester courses. They basically
+                                                        focus on environmental aspect of engineering and Preservation of
+                                                        environment.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 302" role="tabpanel"
-                                                        aria-labelledby="list-CS 302-list">...</div>
+                                                        aria-labelledby="list-CS 302-list">
+                                                        <strong>Computer Graphics and Visualization</strong><br>
+                                                        This Course is designed to provide an introduction to the theory
+                                                        and
+                                                        practice of computer graphics and an insight of modern computer
+                                                        graphics
+                                                        systems. Students will understand the basic principles of
+                                                        computer graphics
+                                                        primitives and able to design application specific computer
+                                                        graphics
+                                                        program. This course will also provide familiarity with key
+                                                        algorithms for
+                                                        modelling and rendering graphical data
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 304N" role="tabpanel"
-                                                        aria-labelledby="list-CS 304N-list">...</div>
+                                                        aria-labelledby="list-CS 304N-list">
+                                                        <strong>Computational Intelligence</strong><br>
+                                                        AI programming : Prolog, LISP, Experiments to support the
+                                                        associated
+                                                        theory course that demonstrate the different applications of
+                                                        Neural, fuzzy,
+                                                        evolutionary and hybrid model;
+                                                        Minor project based on real life applications such as Functional
+                                                        approximation; Time-series prediction; Pattern recognition; Data
+                                                        compression; Control applications, Optimization etc.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 306" role="tabpanel"
-                                                        aria-labelledby="list-CS 306-list">...</div>
+                                                        aria-labelledby="list-CS 306-list">
+                                                        <strong>Computer Networks</strong><br>
+                                                        Design of Computer Networking protocols at all layers:
+                                                        transmission
+                                                        media, data link protocols, media access control, routing and
+                                                        congestion
+                                                        control, admission control, traffic shaping and policing,
+                                                        Internet working
+                                                        (IP) and transport layer protocols (TCP). Performance analysis
+                                                        of
+                                                        networks
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-CS 308" role="tabpanel"
-                                                        aria-labelledby="list-CS 308-list">...</div>
+                                                        aria-labelledby="list-CS 308-list">
+                                                        <strong>Compiler Techniques</strong><br>
+                                                        Design and implementation of a compiler for a sufficiently rich
+                                                        subset of a real
+                                                        programming language. The compiler will be automatically
+                                                        generated through
+                                                        use of tools such as LEX, YACC and IBURG.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -642,21 +845,46 @@ data mining. Information Retrieval.
                                                         id="list-CS 419-list" data-toggle="list" href="#list-CS 419"
                                                         role="tab" aria-controls="CS 419">CS 419</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-Discipline Elective-list" data-toggle="list" href="#list-Discipline Elective"
-                                                        role="tab" aria-controls="Discipline Elective">Discipline Elective</a>
+                                                        id="list-Discipline Elective-list" data-toggle="list"
+                                                        href="#list-Discipline Elective" role="tab"
+                                                        aria-controls="Discipline Elective">Discipline Elective</a>
                                                     <a class="list-group-item list-group-item-action"
-                                                        id="list-Open Elective-list" data-toggle="list" href="#list-Open Elective"
-                                                        role="tab" aria-controls="Open Elective">Open Elective</a>
+                                                        id="list-Open Elective-list" data-toggle="list"
+                                                        href="#list-Open Elective" role="tab"
+                                                        aria-controls="Open Elective">Open Elective</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="tab-content" id="nav-tabContent">
                                                     <div class="tab-pane fade show active" id="list-CS 419"
-                                                        role="tabpanel" aria-labelledby="list-CS 419-list">...</div>
-                                                    <div class="tab-pane fade" id="list-Discipline Elective" role="tabpanel"
-                                                        aria-labelledby="list-Discipline Elective-list">...</div>
+                                                        role="tabpanel" aria-labelledby="list-CS 419-list">
+                                                        <strong>Computer Vision</strong><br>
+                                                        Objective of this course is to understand and create artificial
+                                                        vision
+                                                        systems which can reliably extract information from images.
+                                                        Study of
+                                                        vision problems require the basic understanding of image
+                                                        formation,
+                                                        image representation, ways of analyzing the images and patterns
+                                                        present in them. This course aims at providing the knowledge at
+                                                        all these
+                                                        fronts.
+                                                    </div>
+                                                    <div class="tab-pane fade" id="list-Discipline Elective"
+                                                        role="tabpanel" aria-labelledby="list-Discipline Elective-list">
+                                                        Their are three dicipline elective. They can be chosen on
+                                                        student
+                                                        choice. Basically Thry are courses which make bridge between b
+                                                        tech
+                                                        and the m tech in your preferable specialization.
+                                                    </div>
                                                     <div class="tab-pane fade" id="list-Open Elective" role="tabpanel"
-                                                        aria-labelledby="list-Open Elective-list">...</div>
+                                                        aria-labelledby="list-Open Elective-list">
+                                                        Their are 2 Open electives. This the elctive courses in which we
+                                                        can either complete our
+                                                        minor degree or we can take course of other discipline.
+                                                        For completing a minor degree we have to pass 5 minor couses.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -680,14 +908,14 @@ data mining. Information Retrieval.
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-<script>
-  function preventBack(){window.history.forward();}
-  setTimeout("preventBack()", 0);
-  window.onunload=function(){null};
-  setTimeout(function(){
-  $('#Welcome').remove();
-}, 5000);
-</script>
+    <script>
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+        setTimeout(function () {
+            $('#Welcome').remove();
+        }, 5000);
+    </script>
 </body>
 
 </html>
