@@ -4,10 +4,10 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 conn = mysql.connector.connect(
-    host="remotemysql.com",
-    user="RJK7rOrATq",
-    password="zsgyihfQls",
-    database='RJK7rOrATq'
+    host="sql6.freesqldatabase.com",
+    user="sql6434732",
+    password="jsp1W5GGye",
+    database='sql6434732'
 )
 cursor = conn.cursor()
 
