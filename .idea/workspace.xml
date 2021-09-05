@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d70b9aa-9673-4b31-a36e-e83106bd668e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/forget.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forget.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1630748050389" duration="4633000" />
       <workItem from="1630771667568" duration="127000" />
       <workItem from="1630772127574" duration="2857000" />
-      <workItem from="1630824921021" duration="3136000" />
+      <workItem from="1630824921021" duration="7985000" />
     </task>
     <task id="LOCAL-00001" summary="good">
       <created>1630596024759</created>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630774401271</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test">
+      <created>1630828085164</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1630828085164</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +213,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ass3$ass3.coverage" NAME="ass3 Coverage Results" MODIFIED="1630827715621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ass3$ass3.coverage" NAME="ass3 Coverage Results" MODIFIED="1630836013121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
