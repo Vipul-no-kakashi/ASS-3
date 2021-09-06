@@ -4,23 +4,17 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 conn = mysql.connector.connect(
-    host="sql6.freesqldatabase.com",
-    user="sql6434732",
+    host="ec2-35-153-114-74.compute-1.amazonaws.com",
+    user="skvkwgmrcnwfzq",
     password="jsp1W5GGye",
-    database='sql6434732'
+    database='265384cd7737475bf58f1bba424e0bb78007e2fc674a77979137eba9c003d462',
+    port="5432"
 )
 cursor = conn.cursor()
-
-
-# @app.route('/a')
-# def a():
-#     return render_template("Success.html", user=200001080)
 
 @app.route('/')
 def hello_world():
     return render_template('login.html')
-    # return 'Hello World!'
-
 
 @app.route('/signup')
 def signup():
@@ -41,7 +35,7 @@ def login_validation():
             error = "Invalid Password"
             return render_template('login.html', error=error)
     else:
-        error = "Invalid UserId"
+        error = "UserId is not Registered"
         return render_template('login.html', error=error)
 
 
@@ -52,7 +46,6 @@ def forget_validation():
     cursor.execute("""SELECT * FROM users WHERE ID Like '{}' AND Mno Like '{}'""".format(user_Id, Mno))
     users = cursor.fetchall()
     if len(users) > 0:
-        print(users[0][0])
         return render_template("reset.html", users_id=users[0][0])
     else:
         error = "User Id and Mobile no. not matched"
@@ -64,6 +57,7 @@ def reset():
     user_Id = request.form.get('user_Id')
     P1 = request.form.get('p1')
     P2 = request.form.get('p2')
+
     if (P1 != P2):
         error = "Password does not match"
         return render_template("reset.html", error=error)
@@ -97,7 +91,6 @@ def add_user():
         """INSERT INTO users (`ID`, `Mno`, `password`) VALUES('{}', '{}', '{}');""".format(user_Id, Mno, password))
     conn.commit()
     return render_template('login.html')
-    # return "Login ADDed"
 
 
 if __name__ == '__main__':

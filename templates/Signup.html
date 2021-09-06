@@ -1,5 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
+{% if error %}
+    <br>
+    <br>
+    <div class="blink_me" style=" color: #9C1A1C; font-size: 20px; text-align: center">
+        <strong>Error</strong>:
+        {{error}}
+    </div>
+{% endif %}
 <div class="card mt-85 aq">
     <div class="card-body">
         <form class="form" method="post" action="/add_login">
